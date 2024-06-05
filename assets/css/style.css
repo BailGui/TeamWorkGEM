@@ -1262,8 +1262,9 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: linear-gradient(130deg,#00A89F 0%, #7E2C5C 20%,#7E2C5C 80%,#00A89F 100%);
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1276,7 +1277,6 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(26, 46, 64, 0.85);
   z-index: 1;
 }
 
@@ -1287,7 +1287,8 @@ section {
   padding: 80px 0;
 }
 
-#footer .footer-top h3 {
+
+#footer .footer-top h1 {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
@@ -1296,6 +1297,16 @@ section {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
+.footer-top a {
+ color: rgb(0,168,159);
+ font-size: 20px;
+}
+
+.footer-top a:hover {
+  color: rgb(227,0,86);
+  font-size: 22px;
+ }
 
 #footer .footer-top p {
   font-size: 15;
@@ -1325,6 +1336,26 @@ section {
   width: calc(100% - 100px);
 }
 
+.formInput {
+  position: relative;
+  background: rgb(0,168,159);
+  border-radius: 50px;
+  color: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  border: 0;
+  right: -1px;
+  transition: 0.3s;
+  padding: 8px 18px;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.formInput:hover {
+  background: rgb(227,0,86);
+}
+
 #footer .footer-top .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
@@ -1334,7 +1365,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #fdc134;
+  background: rgb(0,168,159);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1342,7 +1373,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #fcb102;
+  background: rgb(227,0,86);
 }
 
 #footer .footer-top .social-links {
@@ -1352,7 +1383,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #284864;
+  background: rgb(0,168,159);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1365,7 +1396,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #fcb102;
+  background: rgb(227,0,86);
   color: #fff;
   text-decoration: none;
 }
@@ -1395,6 +1426,28 @@ section {
   #footer .credits {
     padding: 5px;
     float: none;
-    text-align: ceneter;
+    text-align: center;
+  }
+}
+
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.liensFooter:hover{
+  color: rgb(227,0,86);
+  animation: fadeInRight 1s ease-in-out;
+}
+
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
   }
 }
