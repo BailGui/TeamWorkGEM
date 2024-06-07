@@ -1438,7 +1438,7 @@ section {
 
 .liensFooter:hover{
   color: rgb(227,0,86);
-  animation: fadeInRight 1s ease-in-out;
+  animation: 1s ease-in-out;
 }
 
 
