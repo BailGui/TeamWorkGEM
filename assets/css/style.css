@@ -480,7 +480,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #fdc134;
+  background: #7E2C5C;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -1136,9 +1136,8 @@ section {
 .faq .faq-item p {
   font-size: 15px;
 }
-
-/*--------------------------------------------------------------
-# Contact
+/*
+# Contact Marwan
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
@@ -1146,19 +1145,20 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
   background: #fff;
+  
 }
 
 .contact .info-box i {
   font-size: 32px;
-  color: #fdc134;
+  color: rgb(0,168,159 );
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #fff7e5;
+  border: 2px dotted #f1f1f1;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: rgb(227,0,86);
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1219,14 +1219,14 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
+  border: 1px solid rgb(0,168,159 );
+  box-shadow: none ;
   font-size: 14px;
 }
 
 .contact .php-email-form input::focus,
 .contact .php-email-form textarea::focus {
-  background-color: #fdc134;
+  background-color: #523b06;
 }
 
 .contact .php-email-form input {
@@ -1238,7 +1238,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #fdc134;
+  background:rgb(0,168,159 );
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1246,7 +1246,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #fdd067;
+  background: rgb(2, 93, 89);
 }
 
 @keyframes animate-loading {
@@ -1258,7 +1258,9 @@ section {
     transform: rotate(360deg);
   }
 }
-
+/*--------------------------------------------------------------
+# End Marwan 
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

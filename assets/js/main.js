@@ -204,3 +204,37 @@
   });
 
 })()
+
+//Contact
+
+$(document).ready(function(){
+  $("#adresse").mouseover(function(){
+    $("#iconAdresse").css("border", "1px solid rgb(126,44,92)")
+  
+   
+
+  });
+  $("#adresse").mouseout(function(){
+    $("#iconAdresse").css("border", "none");
+  });
+});
+
+$(document).ready(function(){
+  $("#tel").mouseover(function(){
+    $("#iconTel").css("border", "1px solid rgb(126,44,92)")
+   
+  });
+  $("#tel").mouseout(function(){
+    $("#iconTel").css("border", "none");
+  });
+});
+
+$(document).ready(function(){
+  $("#email").mouseover(function(){
+    $("#iconEmail").css("border", "1px solid rgb(126,44,92)")
+
+  });
+  $("#email").mouseout(function(){
+    $("#iconEmail").css("border", "none");
+  });
+});
